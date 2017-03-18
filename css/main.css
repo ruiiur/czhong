@@ -1,0 +1,118 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.page-one{
+    background-image:url(../images/bg-one.png);
+    text-align: center;
+    font-weight: 100;
+}
+.page-two{
+    background-image:url(../images/bg-two.png);
+    color:#fff;
+    font-size: 20px;
+}
+.page-three{
+    background-image:url(../images/bg-three.png);
+    font-size: 20px;
+}
+.page-four{
+    background-image:url(../images/bg-four.png);
+}
+.page-five{
+    background-image:url(../images/bg-five.png);
+}
+.page-six{
+    background-image:url(../images/bg-six.png);
+}
+.vertical{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    vertical-align: middle;
+    height:350px;
+}
+.page-one h1{
+    font-size: 48px;
+    line-height: 67px;
+    padding: 117px 0 23px;
+    font-weight: 100;
+    margin: 0;
+
+}
+.page-one h4{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    color:#9b9b9b;
+    font-weight: 100;
+}
+ .line{
+    /*padding-top: 117px;*/
+      margin:0;
+     text-align: center;
+}
+.page-two ul,.page-three ul{
+    padding: 0;
+    /*margin-left:41px;*/
+    width:290px;
+    margin: auto;
+}
+.page-two ul li,.page-three ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+    transform: rotateZ(0deg) translate(0,0);
+    transition: all 1s;
+}
+.page-two ul li p,.page-three ul li p{
+    margin: 0;
+}
+.list-one,.list-three{
+    margin-right: 10%;
+    width:45%;
+}
+.page-two ul li img,.page-three ul li img{
+    width: 117px;
+    height:120px;
+    margin: auto;
+}
+.page-line{
+    font-size: 36px;
+    text-align: right;
+    margin: 150px 0 18px;
+}
+.page-four div,.page-five div,.page-six div{
+    width: 294px;
+    margin: auto;
+}
+.page-four div p,.page-five div p,.page-six div p{
+   font-size: 12px;
+    margin: 0;
+    line-height: 17px;
+}
+.page-six div p{
+    text-align: right;
+}
